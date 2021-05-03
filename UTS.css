@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+}
+header{
+    background-image: linear-gradient(rgba(252,192,203, .6),rgba(252,192,203, .6)), url("bunga.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: #00ff00;
+    color: black;
+}
+ul li.active a{
+    background-color: #00ff00;
+    color: black;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(30%,30%);
+}
+.title h1{
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.button{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(100%,100%);
+}
+.button h1{
+    color: white;
+    font-size: 20px;
+}
+section h2 {
+    text-align: center;
+    padding:20px 0;
+    color: #0b6623;
+    margin-bottom: 30px;
+}
+.about p {
+    color: black;
+    word-spacing: 5px;
+    line-height: 50px;
+}
